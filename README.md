@@ -1,25 +1,10 @@
-# Module 11: Reading data
+# Reading data
 
-## Overview
 As the size and complexity of a website increases, web-content is often driven by an underlying data source. Whether it's a simple table, a complex visualization, or a tweet, the data for your page is best stored somewhere else, and loaded into your site.
 
 There are numerous approaches for querying data into a web application, and this module introduces three common methods. These were selected because of their popularity, usability with different data types, and ability to be integrated into various applications.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
-
-- [Resources](#resources)
-- [Asynchronous Requests](#asynchronous-requests)
-  - [Callback Functions](#callback-functions)
-  - [Method Chaining](#method-chaining)
-- [jQuery AJAX Calls](#jquery-ajax-calls)
-- [PapaParse](#papaparse)
-- [D3 Methods](#d3-methods)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
+Helpful links:
 
 - [jQuery GET and POST methods](http://www.w3schools.com/jquery/jquery_ajax_get_post.asp) (_w3schools_)
 - [jQuery AJAX Docs](http://api.jquery.com/jQuery.ajax/)

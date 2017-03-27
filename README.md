@@ -1,25 +1,10 @@
-# Module 11: Reading data
+# Reading data
 
-## Overview
 As the size and complexity of a website increases, web-content is often driven by an underlying data source. Whether it's a simple table, a complex visualization, or a tweet, the data for your page is best stored somewhere else, and loaded into your site.
 
 There are numerous approaches for querying data into a web application, and this module introduces three common methods. These were selected because of their popularity, usability with different data types, and ability to be integrated into various applications.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
-
-- [Resources](#resources)
-- [Asynchronous Requests](#asynchronous-requests)
-  - [Callback Functions](#callback-functions)
-  - [Method Chaining](#method-chaining)
-- [jQuery AJAX Calls](#jquery-ajax-calls)
-- [PapaParse](#papaparse)
-- [D3 Methods](#d3-methods)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
+Helpful links:
 
 - [jQuery GET and POST methods](http://www.w3schools.com/jquery/jquery_ajax_get_post.asp) (_w3schools_)
 - [jQuery AJAX Docs](http://api.jquery.com/jQuery.ajax/)
@@ -168,7 +153,7 @@ There are many libraries out there for parsing `.csv` data, and PapaParse is one
     }).data; // Get the data property from the parsing
 ```
 
-For practice using jQuery AJAX calls with PapaParse, see [exercise-1](exercise-1).
+For practice using jQuery AJAX calls with PapaParse, see [exercise-1](http://github.com/info474-s17/m10-reading-data/tree/master/exercise-1).
 
 ## D3 Methods
 The D3 visualization library provides a variety of methods for parsing data stored in specified formats. Here, we'll explain how to use the `d3.csv` method to read comma-seperated-values files. In order to read `.csv` files into a browser, you **must be running a local server**, as your browser does not have permission to read .csv files directly from your machine. Imagine you had a `.csv` that held this tabular data:
@@ -195,4 +180,4 @@ d3.csv('PATH-TO-DATA.csv', function(error, data){
 
 ```
 
-For practice using D3 methods to read in data, see [exercise-2](exercise-2).
+For practice using D3 methods to read in data, see [exercise-2](http://github.com/info474-s17/m10-reading-data/tree/master/exercise-2).

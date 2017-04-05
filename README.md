@@ -42,7 +42,7 @@ console.log(myData);
 
  This can introduce a significant challenge for people getting started with JavaScript. However, there is a standard and straightforward solution to this challenge: the use of **callback** functions. A callback function will execute _**after**_ a request is complete. This is perhaps best explained through an AJAX call example (more detail on that below):
 
- ```javascript
+```javascript
 // A global variable to hold your data
 var myData;
 
@@ -56,7 +56,7 @@ $.get('PATH-TO-DATA', function(data, error) {
   // Run a function that uses `myData`.
   buildPage();
 });
- ```
+```
 
 The second parameter to the function about is our **callback** function. It will wait for the request to come back, and use the information returned by the request inside of the function body. AJAX requests typically pass two parameters into their callback function. In the example above, we use the variable names `error`, which contains information about what may have caused a rejection, and `data`, which contains the information returned by the call. Note, you can use an anonymous function for your callback (as in the example above), or using a named function, as seen here:
 
